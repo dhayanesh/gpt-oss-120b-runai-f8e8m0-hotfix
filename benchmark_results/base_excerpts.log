@@ -1,0 +1,6 @@
+(EngineCore_DP0 pid=19567) (Worker_TP0 pid=19573) INFO 02-15 05:15:23 [default_loader.py:308] Loading weights took 387.56 seconds
+(EngineCore_DP0 pid=19567) (Worker_TP0 pid=19573) INFO 02-15 05:15:26 [gpu_model_runner.py:3549] Model loading took 34.3774 GiB memory and 390.373224 seconds
+(EngineCore_DP0 pid=19567) (Worker_TP0 pid=19573) INFO 02-15 05:15:37 [monitor.py:34] torch.compile takes 8.94 s in total
+(EngineCore_DP0 pid=19567) (Worker_TP0 pid=19573) INFO 02-15 05:15:49 [gpu_model_runner.py:4466] Graph capturing finished in 10 secs, took 1.01 GiB
+(EngineCore_DP0 pid=19567) INFO 02-15 05:15:49 [core.py:254] init engine (profile, create kv cache, warmup model) took 22.52 seconds
+BENCHMARK_READY_SECONDS=421.8885

@@ -1,0 +1,8 @@
+(EngineCore_DP0 pid=20129) (Worker_TP1 pid=20137) [2026-02-15 05:16:38] INFO file_streamer.py:66: [RunAI Streamer] Overall time to stream 34.3 GiB of all files to cpu: 28.52s, 1.2 GiB/s
+(EngineCore_DP0 pid=20129) (Worker_TP0 pid=20135) [2026-02-15 05:16:38] INFO file_streamer.py:66: [RunAI Streamer] Overall time to stream 34.3 GiB of all files to cpu: 28.74s, 1.2 GiB/s
+(EngineCore_DP0 pid=20129) (Worker_TP0 pid=20135) INFO 02-15 05:16:38 [run_lm_eval_runai_sharded.py:150] Loading weights took 28.75 seconds
+(EngineCore_DP0 pid=20129) (Worker_TP0 pid=20135) INFO 02-15 05:16:39 [gpu_model_runner.py:3549] Model loading took 34.3774 GiB memory and 31.534663 seconds
+(EngineCore_DP0 pid=20129) (Worker_TP0 pid=20135) INFO 02-15 05:16:50 [monitor.py:34] torch.compile takes 8.95 s in total
+(EngineCore_DP0 pid=20129) (Worker_TP0 pid=20135) INFO 02-15 05:17:02 [gpu_model_runner.py:4466] Graph capturing finished in 10 secs, took 1.01 GiB
+(EngineCore_DP0 pid=20129) INFO 02-15 05:17:02 [core.py:254] init engine (profile, create kv cache, warmup model) took 22.70 seconds
+BENCHMARK_READY_SECONDS=62.2471

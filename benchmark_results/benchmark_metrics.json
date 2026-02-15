@@ -1,0 +1,39 @@
+{
+  "base": {
+    "ready_seconds": 421.8885,
+    "weights_loading_seconds": 387.56,
+    "model_loading_memory_gib": 34.3774,
+    "model_loading_seconds": 390.373224,
+    "init_engine_seconds": 22.52,
+    "graph_capture_seconds": 10.0,
+    "graph_capture_memory_gib": 1.01,
+    "case_id": "base",
+    "case_label": "Base (no RunAI streamer)",
+    "exit_code": 0,
+    "wall_seconds": 432.86697270697914,
+    "command": "/usr/bin/python /workspace/benchmark_load_base.py",
+    "log_file": "/workspace/benchmark_results/base.log",
+    "excerpt_file": "/workspace/benchmark_results/base_excerpts.log",
+    "torch_compile_seconds": 8.94
+  },
+  "runai_sharded": {
+    "ready_seconds": 62.2471,
+    "weights_loading_seconds": 28.75,
+    "model_loading_memory_gib": 34.3774,
+    "model_loading_seconds": 31.534663,
+    "init_engine_seconds": 22.7,
+    "graph_capture_seconds": 10.0,
+    "graph_capture_memory_gib": 1.01,
+    "runai_stream_total_gib": 34.3,
+    "runai_stream_time_seconds_best": 28.52,
+    "runai_stream_bw_gib_s_best": 1.2,
+    "case_id": "runai_sharded",
+    "case_label": "RunAI sharded (runai_streamer_sharded)",
+    "exit_code": 0,
+    "wall_seconds": 72.44084519497119,
+    "command": "/usr/bin/python /workspace/benchmark_load_runai_sharded.py",
+    "log_file": "/workspace/benchmark_results/runai_sharded.log",
+    "excerpt_file": "/workspace/benchmark_results/runai_sharded_excerpts.log",
+    "torch_compile_seconds": 8.95
+  }
+}
