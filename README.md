@@ -1,7 +1,7 @@
 # GPT-OSS-120B F8_E8M0 RunAI Sharded Hotfix Results
 
 ## Summary
-Native `F8_E8M0` handling in `runai_streamer_sharded` is not available in this environment.  
+Native `F8_E8M0` handling in `runai_streamer_sharded` is not yet available.  
 A custom hotfix was applied at runtime to enable sharded streaming load for `gpt-oss-120b` without changing model architecture.
 
 Result: quality is unchanged vs base model on lm-eval, while vLLM load time is significantly faster with RunAI sharded streaming.
