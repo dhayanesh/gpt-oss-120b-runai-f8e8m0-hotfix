@@ -17,7 +17,6 @@ Applied runtime patches:
 - Patch sharded state loader handling for key mapping and scale tensors used during load.
 
 ## LM-Eval Parity (Base vs RunAI Sharded)
-Run date: `2026-02-15`  
 Tasks: `arc_easy,piqa`  
 Limit: `20` (quick parity check)
 
